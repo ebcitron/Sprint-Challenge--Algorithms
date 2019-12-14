@@ -15,6 +15,7 @@ its O(n) since its just an additional loop per n increase
 ## Exercise II
 
 n story building
+
 len(n)/2
 if egg breaks at half of n, you can rule out the later half,
 

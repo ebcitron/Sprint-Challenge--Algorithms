@@ -95,7 +95,7 @@ class SortingRobot:
     def sortLoop(self):
         while self.can_move_left() == True:
             self.move_left()
-
+ 
         while self.compare_item() != None:
             if self.compare_item() == -1:
                 self.swap_item()
@@ -103,7 +103,7 @@ class SortingRobot:
 
         self.swap_item()
 
-        if self.can_move_right() = False:
+        if self.can_move_right() == False:
             self.set_light_off()
         else:
             self.move_right()
@@ -117,8 +117,8 @@ class SortingRobot:
         self.set_light_on()
         self.swap_item()
        
-       while self.light_is_on() == True:
-           self.sortLoop()
+        while self.light_is_on() == True:
+             self.sortLoop()
         pass
         
 
