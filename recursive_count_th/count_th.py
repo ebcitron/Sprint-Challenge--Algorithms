@@ -13,8 +13,12 @@ def count_th(word):
     count = 0
     if len(word) < 2:
         return 0
-    if word[0:1] == 'th':
+    if word[0:2] == 'th':
         count +=1
-    return count_th(word[1:])
+    if len(word) > 2:
+        count += count_th(word[1:])
+    return count
 
-print(count_th("IBIKIththibikithth"))
+
+
+print(count_th("IBIKIththibikithththhhhthibithththth;asdlkjfasth"))
