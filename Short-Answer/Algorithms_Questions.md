@@ -11,7 +11,13 @@ a)  a = 0
       a = a + n * n
 ```
 
+<!-- a < n**3
+a = a + n**2
 
+1
+1>8? than a = 1 + 4
+5
+5> -->
 ```
 b)  sum = 0
     for i in range(n):
